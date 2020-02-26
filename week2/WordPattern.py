@@ -16,7 +16,6 @@ class Solution(object):
         for i in range(n):
             key = pattern[i]
             w = words[i]
-            print d
             if (not key in d):
                 if (not w in d.values()):
                     d[key] = w
